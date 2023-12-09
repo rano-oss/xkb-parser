@@ -9,18 +9,18 @@ description = "Parses `.xkb` (X keyboard extension) files"
 repository = "https://github.com/divvun/xkb-parser"
 
 [dependencies]
-pest = { version = "2.1.1", features = [ "pretty-print" ] }
-pest_derive = "2.1.0"
-pest-ast = "0.3.3"
-from-pest = "0.3.1"
-derivative = "1.0.2"
-log = "0.4.6"
-shrinkwraprs = "0.2.1"
+pest = { version = "2.7.5", features = [ "pretty-print" ] }
+pest_derive = "2.7.5"
+pest-ast = "0.3.4"
+from-pest = "0.3.2"
+derivative = "2.2.0"
+log = "0.4.20"
+shrinkwraprs = "0.3.0"
 
 [dev-dependencies]
-env_logger = "0.6.2"
-rayon = "1.1.0"
-walkdir = "2.2.8"
+env_logger = "0.10.1"
+rayon = "1.8.0"
+walkdir = "2.4.0"
 
 [workspace]
 members = [
