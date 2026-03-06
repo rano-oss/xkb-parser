@@ -19,7 +19,7 @@ file = { SOI ~ (definition)* ~ EOI }
                     key_name = _{ ident ~ ARRAY_SEP? }
                 key_def = { (type_def | symbol_def | virtual_mods_def | actions_def | overlay_def) }
                     type_def = { ^"type" ~ group? ~ "=" ~ string }
-                    symbol_def = { ^"symbols" ~ group ~ "=" ~ key_names }
+                    symbol_def = { ^"symbols" ~ group? ~ "=" ~ key_names }
                     virtual_mods_def = { virtual_mods_def_prefix ~ "=" ~ ident }
                         virtual_mods_def_prefix = { ^"virtualMods" | ^"vmods" }
                     actions_def = { ^"actions" ~ group ~ "=" ~ "[" ~ (action ~ ARRAY_SEP?)* ~ "]" }

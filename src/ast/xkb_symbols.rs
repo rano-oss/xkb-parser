@@ -122,7 +122,7 @@ pub struct TypeDef<'src> {
 #[derivative(Debug)]
 #[pest_ast(rule(Rule::symbol_def))]
 pub struct SymbolDef<'src> {
-    pub group: Group<'src>,
+    pub group: Option<Group<'src>>,
     pub values: KeyNames<'src>,
 }
 
