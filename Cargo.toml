@@ -1,7 +1,7 @@
 [package]
 name = "xkb-parser"
-version = "0.1.0"
-authors = ["Pascal Hertleif <pascal@technocreatives.com>"]
+version = "0.2.0"
+authors = ["Pascal Hertleif <pascal@technocreatives.com>", "Eivind Gamst <eivindgamst@proton.me>"]
 edition = "2018"
 license = "Apache-2.0/MIT"
 readme = "Readme.md"

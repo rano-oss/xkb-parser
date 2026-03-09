@@ -11,6 +11,23 @@ pub struct File<'src> {
     eoi: EOI,
 }
 
+impl<'src> File<'src> {
+    /// Returns the name of every `xkb_symbols` block in this file, in
+    /// document order, without any filtering.
+    pub fn symbol_layout_names(&self) -> Vec<&str> {
+        self.definitions
+            .iter()
+            .filter_map(|d| {
+                if let Directive::XkbSymbols(sym) = &d.directive {
+                    Some(sym.name.content)
+                } else {
+                    None
+                }
+            })
+            .collect()
+    }
+}
+
 mod helpers;
 pub(crate) use helpers::*;
 
