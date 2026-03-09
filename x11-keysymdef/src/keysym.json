@@ -4815,7 +4815,7 @@
         },
         {
             "keysym": 2229,
-            "unicode": 0,
+            "unicode": 2229,
             "status": "o",
             "names": [
                 "toprightsummation"
@@ -5895,7 +5895,7 @@
         },
         {
             "keysym": 2815,
-            "unicode": 0,
+            "unicode": 2815,
             "status": "o",
             "names": [
                 "cursor"
@@ -5943,7 +5943,7 @@
         },
         {
             "keysym": 3010,
-            "unicode": 8869,
+            "unicode": 8868,
             "status": ".",
             "names": [
                 "downtack"
@@ -5991,7 +5991,7 @@
         },
         {
             "keysym": 3022,
-            "unicode": 8868,
+            "unicode": 8869,
             "status": ".",
             "names": [
                 "uptack"
@@ -6039,7 +6039,7 @@
         },
         {
             "keysym": 3036,
-            "unicode": 8866,
+            "unicode": 8867,
             "status": ".",
             "names": [
                 "lefttack"
@@ -6047,7 +6047,7 @@
         },
         {
             "keysym": 3068,
-            "unicode": 8867,
+            "unicode": 8866,
             "status": ".",
             "names": [
                 "righttack"
@@ -8554,7 +8554,7 @@
         },
         {
             "keysym": 65146,
-            "unicode": 0,
+            "unicode": 65146,
             "status": "f",
             "names": [
                 "AudibleBell_Enable"
@@ -9482,7 +9482,7 @@
         },
         {
             "keysym": 65439,
-            "unicode": 0,
+            "unicode": 127,
             "status": "f",
             "names": [
                 "KP_Delete"
@@ -10018,7 +10018,7 @@
         },
         {
             "keysym": 65535,
-            "unicode": 0,
+            "unicode": 127,
             "status": "f",
             "names": [
                 "Delete"
@@ -11978,7 +11978,7 @@
         },
         {
             "keysym": 5812,
-            "unicode": 0,
+            "unicode": 465,
             "status": "r",
             "names": [
                 "Ocaron"
@@ -12910,6 +12910,3422 @@
             "status": "f",
             "names": [
                 "dead_horn"
+            ]
+        },
+        {
+            "keysym": 186,
+            "unicode": 186,
+            "status": "f",
+            "names": [
+                "ordmasculine"
+            ]
+        },
+        {
+            "keysym": 216,
+            "unicode": 216,
+            "status": "f",
+            "names": [
+                "Oslash"
+            ]
+        },
+        {
+            "keysym": 1511,
+            "unicode": 1607,
+            "status": "f",
+            "names": [
+                "Arabic_heh"
+            ]
+        },
+        {
+            "keysym": 2027,
+            "unicode": 955,
+            "status": "f",
+            "names": [
+                "Greek_lamda"
+            ]
+        },
+        {
+            "keysym": 2773,
+            "unicode": 8240,
+            "status": "f",
+            "names": [
+                "permille"
+            ]
+        },
+        {
+            "keysym": 65123,
+            "unicode": 821,
+            "status": "f",
+            "names": [
+                "dead_stroke"
+            ]
+        },
+        {
+            "keysym": 65124,
+            "unicode": 787,
+            "status": "f",
+            "names": [
+                "dead_abovecomma"
+            ]
+        },
+        {
+            "keysym": 65124,
+            "unicode": 1158,
+            "status": "f",
+            "names": [
+                "dead_psili"
+            ]
+        },
+        {
+            "keysym": 65125,
+            "unicode": 788,
+            "status": "f",
+            "names": [
+                "dead_abovereversedcomma"
+            ]
+        },
+        {
+            "keysym": 65125,
+            "unicode": 1157,
+            "status": "f",
+            "names": [
+                "dead_dasia"
+            ]
+        },
+        {
+            "keysym": 65126,
+            "unicode": 783,
+            "status": "f",
+            "names": [
+                "dead_doublegrave"
+            ]
+        },
+        {
+            "keysym": 65127,
+            "unicode": 805,
+            "status": "f",
+            "names": [
+                "dead_belowring"
+            ]
+        },
+        {
+            "keysym": 65128,
+            "unicode": 817,
+            "status": "f",
+            "names": [
+                "dead_belowmacron"
+            ]
+        },
+        {
+            "keysym": 65129,
+            "unicode": 813,
+            "status": "f",
+            "names": [
+                "dead_belowcircumflex"
+            ]
+        },
+        {
+            "keysym": 65130,
+            "unicode": 816,
+            "status": "f",
+            "names": [
+                "dead_belowtilde"
+            ]
+        },
+        {
+            "keysym": 65131,
+            "unicode": 814,
+            "status": "f",
+            "names": [
+                "dead_belowbreve"
+            ]
+        },
+        {
+            "keysym": 65132,
+            "unicode": 776,
+            "status": "f",
+            "names": [
+                "dead_belowdiaeresis"
+            ]
+        },
+        {
+            "keysym": 65133,
+            "unicode": 785,
+            "status": "f",
+            "names": [
+                "dead_invertedbreve"
+            ]
+        },
+        {
+            "keysym": 65134,
+            "unicode": 806,
+            "status": "f",
+            "names": [
+                "dead_belowcomma"
+            ]
+        },
+        {
+            "keysym": 65152,
+            "unicode": 867,
+            "status": "f",
+            "names": [
+                "dead_a"
+            ]
+        },
+        {
+            "keysym": 65153,
+            "unicode": 867,
+            "status": "f",
+            "names": [
+                "dead_A"
+            ]
+        },
+        {
+            "keysym": 65154,
+            "unicode": 868,
+            "status": "f",
+            "names": [
+                "dead_e"
+            ]
+        },
+        {
+            "keysym": 65155,
+            "unicode": 868,
+            "status": "f",
+            "names": [
+                "dead_E"
+            ]
+        },
+        {
+            "keysym": 65156,
+            "unicode": 869,
+            "status": "f",
+            "names": [
+                "dead_i"
+            ]
+        },
+        {
+            "keysym": 65157,
+            "unicode": 869,
+            "status": "f",
+            "names": [
+                "dead_I"
+            ]
+        },
+        {
+            "keysym": 65158,
+            "unicode": 870,
+            "status": "f",
+            "names": [
+                "dead_o"
+            ]
+        },
+        {
+            "keysym": 65159,
+            "unicode": 870,
+            "status": "f",
+            "names": [
+                "dead_O"
+            ]
+        },
+        {
+            "keysym": 65160,
+            "unicode": 871,
+            "status": "f",
+            "names": [
+                "dead_u"
+            ]
+        },
+        {
+            "keysym": 65161,
+            "unicode": 871,
+            "status": "f",
+            "names": [
+                "dead_U"
+            ]
+        },
+        {
+            "keysym": 65162,
+            "unicode": 7658,
+            "status": "f",
+            "names": [
+                "dead_schwa"
+            ]
+        },
+        {
+            "keysym": 65163,
+            "unicode": 7658,
+            "status": "f",
+            "names": [
+                "dead_capital_schwa"
+            ]
+        },
+        {
+            "keysym": 65163,
+            "unicode": 7658,
+            "status": "f",
+            "names": [
+                "dead_SCHWA"
+            ]
+        },
+        {
+            "keysym": 65164,
+            "unicode": 836,
+            "status": "f",
+            "names": [
+                "dead_greek"
+            ]
+        },
+        {
+            "keysym": 65165,
+            "unicode": 69291,
+            "status": "f",
+            "names": [
+                "dead_hamza"
+            ]
+        },
+        {
+            "keysym": 65184,
+            "unicode": 65184,
+            "status": "f",
+            "names": [
+                "ch"
+            ]
+        },
+        {
+            "keysym": 65185,
+            "unicode": 65185,
+            "status": "f",
+            "names": [
+                "Ch"
+            ]
+        },
+        {
+            "keysym": 65186,
+            "unicode": 65186,
+            "status": "f",
+            "names": [
+                "CH"
+            ]
+        },
+        {
+            "keysym": 65187,
+            "unicode": 65187,
+            "status": "f",
+            "names": [
+                "c_h"
+            ]
+        },
+        {
+            "keysym": 65188,
+            "unicode": 65188,
+            "status": "f",
+            "names": [
+                "C_h"
+            ]
+        },
+        {
+            "keysym": 65189,
+            "unicode": 65189,
+            "status": "f",
+            "names": [
+                "C_H"
+            ]
+        },
+        {
+            "keysym": 65521,
+            "unicode": 65521,
+            "status": "f",
+            "names": [
+                "braille_dot_1"
+            ]
+        },
+        {
+            "keysym": 65522,
+            "unicode": 65522,
+            "status": "f",
+            "names": [
+                "braille_dot_2"
+            ]
+        },
+        {
+            "keysym": 65523,
+            "unicode": 65523,
+            "status": "f",
+            "names": [
+                "braille_dot_3"
+            ]
+        },
+        {
+            "keysym": 65524,
+            "unicode": 65524,
+            "status": "f",
+            "names": [
+                "braille_dot_4"
+            ]
+        },
+        {
+            "keysym": 65525,
+            "unicode": 65525,
+            "status": "f",
+            "names": [
+                "braille_dot_5"
+            ]
+        },
+        {
+            "keysym": 65526,
+            "unicode": 65526,
+            "status": "f",
+            "names": [
+                "braille_dot_6"
+            ]
+        },
+        {
+            "keysym": 65527,
+            "unicode": 65527,
+            "status": "f",
+            "names": [
+                "braille_dot_7"
+            ]
+        },
+        {
+            "keysym": 65528,
+            "unicode": 65528,
+            "status": "f",
+            "names": [
+                "braille_dot_8"
+            ]
+        },
+        {
+            "keysym": 65529,
+            "unicode": 65529,
+            "status": "f",
+            "names": [
+                "braille_dot_9"
+            ]
+        },
+        {
+            "keysym": 65530,
+            "unicode": 65530,
+            "status": "f",
+            "names": [
+                "braille_dot_10"
+            ]
+        },
+        {
+            "keysym": 16777655,
+            "unicode": 439,
+            "status": "f",
+            "names": [
+                "EZH"
+            ]
+        },
+        {
+            "keysym": 16777874,
+            "unicode": 658,
+            "status": "f",
+            "names": [
+                "ezh"
+            ]
+        },
+        {
+            "keysym": 16778587,
+            "unicode": 1371,
+            "status": "f",
+            "names": [
+                "Armenian_accent"
+            ]
+        },
+        {
+            "keysym": 16778588,
+            "unicode": 1372,
+            "status": "f",
+            "names": [
+                "Armenian_exclam"
+            ]
+        },
+        {
+            "keysym": 16778589,
+            "unicode": 1373,
+            "status": "f",
+            "names": [
+                "Armenian_separation_mark"
+            ]
+        },
+        {
+            "keysym": 16778590,
+            "unicode": 1374,
+            "status": "f",
+            "names": [
+                "Armenian_question"
+            ]
+        },
+        {
+            "keysym": 16778633,
+            "unicode": 1417,
+            "status": "f",
+            "names": [
+                "Armenian_full_stop"
+            ]
+        },
+        {
+            "keysym": 16778634,
+            "unicode": 1418,
+            "status": "f",
+            "names": [
+                "Armenian_hyphen"
+            ]
+        },
+        {
+            "keysym": 16778956,
+            "unicode": 1740,
+            "status": "f",
+            "names": [
+                "Arabic_farsi_yeh"
+            ]
+        },
+        {
+            "keysym": 16780674,
+            "unicode": 3458,
+            "status": "f",
+            "names": [
+                "Sinh_ng"
+            ]
+        },
+        {
+            "keysym": 16780675,
+            "unicode": 3459,
+            "status": "f",
+            "names": [
+                "Sinh_h2"
+            ]
+        },
+        {
+            "keysym": 16780677,
+            "unicode": 3461,
+            "status": "f",
+            "names": [
+                "Sinh_a"
+            ]
+        },
+        {
+            "keysym": 16780678,
+            "unicode": 3462,
+            "status": "f",
+            "names": [
+                "Sinh_aa"
+            ]
+        },
+        {
+            "keysym": 16780679,
+            "unicode": 3463,
+            "status": "f",
+            "names": [
+                "Sinh_ae"
+            ]
+        },
+        {
+            "keysym": 16780680,
+            "unicode": 3464,
+            "status": "f",
+            "names": [
+                "Sinh_aee"
+            ]
+        },
+        {
+            "keysym": 16780681,
+            "unicode": 3465,
+            "status": "f",
+            "names": [
+                "Sinh_i"
+            ]
+        },
+        {
+            "keysym": 16780682,
+            "unicode": 3466,
+            "status": "f",
+            "names": [
+                "Sinh_ii"
+            ]
+        },
+        {
+            "keysym": 16780683,
+            "unicode": 3467,
+            "status": "f",
+            "names": [
+                "Sinh_u"
+            ]
+        },
+        {
+            "keysym": 16780684,
+            "unicode": 3468,
+            "status": "f",
+            "names": [
+                "Sinh_uu"
+            ]
+        },
+        {
+            "keysym": 16780685,
+            "unicode": 3469,
+            "status": "f",
+            "names": [
+                "Sinh_ri"
+            ]
+        },
+        {
+            "keysym": 16780686,
+            "unicode": 3470,
+            "status": "f",
+            "names": [
+                "Sinh_rii"
+            ]
+        },
+        {
+            "keysym": 16780687,
+            "unicode": 3471,
+            "status": "f",
+            "names": [
+                "Sinh_lu"
+            ]
+        },
+        {
+            "keysym": 16780688,
+            "unicode": 3472,
+            "status": "f",
+            "names": [
+                "Sinh_luu"
+            ]
+        },
+        {
+            "keysym": 16780689,
+            "unicode": 3473,
+            "status": "f",
+            "names": [
+                "Sinh_e"
+            ]
+        },
+        {
+            "keysym": 16780690,
+            "unicode": 3474,
+            "status": "f",
+            "names": [
+                "Sinh_ee"
+            ]
+        },
+        {
+            "keysym": 16780691,
+            "unicode": 3475,
+            "status": "f",
+            "names": [
+                "Sinh_ai"
+            ]
+        },
+        {
+            "keysym": 16780692,
+            "unicode": 3476,
+            "status": "f",
+            "names": [
+                "Sinh_o"
+            ]
+        },
+        {
+            "keysym": 16780693,
+            "unicode": 3477,
+            "status": "f",
+            "names": [
+                "Sinh_oo"
+            ]
+        },
+        {
+            "keysym": 16780694,
+            "unicode": 3478,
+            "status": "f",
+            "names": [
+                "Sinh_au"
+            ]
+        },
+        {
+            "keysym": 16780698,
+            "unicode": 3482,
+            "status": "f",
+            "names": [
+                "Sinh_ka"
+            ]
+        },
+        {
+            "keysym": 16780699,
+            "unicode": 3483,
+            "status": "f",
+            "names": [
+                "Sinh_kha"
+            ]
+        },
+        {
+            "keysym": 16780700,
+            "unicode": 3484,
+            "status": "f",
+            "names": [
+                "Sinh_ga"
+            ]
+        },
+        {
+            "keysym": 16780701,
+            "unicode": 3485,
+            "status": "f",
+            "names": [
+                "Sinh_gha"
+            ]
+        },
+        {
+            "keysym": 16780702,
+            "unicode": 3486,
+            "status": "f",
+            "names": [
+                "Sinh_ng2"
+            ]
+        },
+        {
+            "keysym": 16780703,
+            "unicode": 3487,
+            "status": "f",
+            "names": [
+                "Sinh_nga"
+            ]
+        },
+        {
+            "keysym": 16780704,
+            "unicode": 3488,
+            "status": "f",
+            "names": [
+                "Sinh_ca"
+            ]
+        },
+        {
+            "keysym": 16780705,
+            "unicode": 3489,
+            "status": "f",
+            "names": [
+                "Sinh_cha"
+            ]
+        },
+        {
+            "keysym": 16780706,
+            "unicode": 3490,
+            "status": "f",
+            "names": [
+                "Sinh_ja"
+            ]
+        },
+        {
+            "keysym": 16780707,
+            "unicode": 3491,
+            "status": "f",
+            "names": [
+                "Sinh_jha"
+            ]
+        },
+        {
+            "keysym": 16780708,
+            "unicode": 3492,
+            "status": "f",
+            "names": [
+                "Sinh_nya"
+            ]
+        },
+        {
+            "keysym": 16780709,
+            "unicode": 3493,
+            "status": "f",
+            "names": [
+                "Sinh_jnya"
+            ]
+        },
+        {
+            "keysym": 16780710,
+            "unicode": 3494,
+            "status": "f",
+            "names": [
+                "Sinh_nja"
+            ]
+        },
+        {
+            "keysym": 16780711,
+            "unicode": 3495,
+            "status": "f",
+            "names": [
+                "Sinh_tta"
+            ]
+        },
+        {
+            "keysym": 16780712,
+            "unicode": 3496,
+            "status": "f",
+            "names": [
+                "Sinh_ttha"
+            ]
+        },
+        {
+            "keysym": 16780713,
+            "unicode": 3497,
+            "status": "f",
+            "names": [
+                "Sinh_dda"
+            ]
+        },
+        {
+            "keysym": 16780714,
+            "unicode": 3498,
+            "status": "f",
+            "names": [
+                "Sinh_ddha"
+            ]
+        },
+        {
+            "keysym": 16780715,
+            "unicode": 3499,
+            "status": "f",
+            "names": [
+                "Sinh_nna"
+            ]
+        },
+        {
+            "keysym": 16780716,
+            "unicode": 3500,
+            "status": "f",
+            "names": [
+                "Sinh_ndda"
+            ]
+        },
+        {
+            "keysym": 16780717,
+            "unicode": 3501,
+            "status": "f",
+            "names": [
+                "Sinh_tha"
+            ]
+        },
+        {
+            "keysym": 16780718,
+            "unicode": 3502,
+            "status": "f",
+            "names": [
+                "Sinh_thha"
+            ]
+        },
+        {
+            "keysym": 16780719,
+            "unicode": 3503,
+            "status": "f",
+            "names": [
+                "Sinh_dha"
+            ]
+        },
+        {
+            "keysym": 16780720,
+            "unicode": 3504,
+            "status": "f",
+            "names": [
+                "Sinh_dhha"
+            ]
+        },
+        {
+            "keysym": 16780721,
+            "unicode": 3505,
+            "status": "f",
+            "names": [
+                "Sinh_na"
+            ]
+        },
+        {
+            "keysym": 16780723,
+            "unicode": 3507,
+            "status": "f",
+            "names": [
+                "Sinh_ndha"
+            ]
+        },
+        {
+            "keysym": 16780724,
+            "unicode": 3508,
+            "status": "f",
+            "names": [
+                "Sinh_pa"
+            ]
+        },
+        {
+            "keysym": 16780725,
+            "unicode": 3509,
+            "status": "f",
+            "names": [
+                "Sinh_pha"
+            ]
+        },
+        {
+            "keysym": 16780726,
+            "unicode": 3510,
+            "status": "f",
+            "names": [
+                "Sinh_ba"
+            ]
+        },
+        {
+            "keysym": 16780727,
+            "unicode": 3511,
+            "status": "f",
+            "names": [
+                "Sinh_bha"
+            ]
+        },
+        {
+            "keysym": 16780728,
+            "unicode": 3512,
+            "status": "f",
+            "names": [
+                "Sinh_ma"
+            ]
+        },
+        {
+            "keysym": 16780729,
+            "unicode": 3513,
+            "status": "f",
+            "names": [
+                "Sinh_mba"
+            ]
+        },
+        {
+            "keysym": 16780730,
+            "unicode": 3514,
+            "status": "f",
+            "names": [
+                "Sinh_ya"
+            ]
+        },
+        {
+            "keysym": 16780731,
+            "unicode": 3515,
+            "status": "f",
+            "names": [
+                "Sinh_ra"
+            ]
+        },
+        {
+            "keysym": 16780733,
+            "unicode": 3517,
+            "status": "f",
+            "names": [
+                "Sinh_la"
+            ]
+        },
+        {
+            "keysym": 16780736,
+            "unicode": 3520,
+            "status": "f",
+            "names": [
+                "Sinh_va"
+            ]
+        },
+        {
+            "keysym": 16780737,
+            "unicode": 3521,
+            "status": "f",
+            "names": [
+                "Sinh_sha"
+            ]
+        },
+        {
+            "keysym": 16780738,
+            "unicode": 3522,
+            "status": "f",
+            "names": [
+                "Sinh_ssha"
+            ]
+        },
+        {
+            "keysym": 16780739,
+            "unicode": 3523,
+            "status": "f",
+            "names": [
+                "Sinh_sa"
+            ]
+        },
+        {
+            "keysym": 16780740,
+            "unicode": 3524,
+            "status": "f",
+            "names": [
+                "Sinh_ha"
+            ]
+        },
+        {
+            "keysym": 16780741,
+            "unicode": 3525,
+            "status": "f",
+            "names": [
+                "Sinh_lla"
+            ]
+        },
+        {
+            "keysym": 16780742,
+            "unicode": 3526,
+            "status": "f",
+            "names": [
+                "Sinh_fa"
+            ]
+        },
+        {
+            "keysym": 16780746,
+            "unicode": 3530,
+            "status": "f",
+            "names": [
+                "Sinh_al"
+            ]
+        },
+        {
+            "keysym": 16780751,
+            "unicode": 3535,
+            "status": "f",
+            "names": [
+                "Sinh_aa2"
+            ]
+        },
+        {
+            "keysym": 16780752,
+            "unicode": 3536,
+            "status": "f",
+            "names": [
+                "Sinh_ae2"
+            ]
+        },
+        {
+            "keysym": 16780753,
+            "unicode": 3537,
+            "status": "f",
+            "names": [
+                "Sinh_aee2"
+            ]
+        },
+        {
+            "keysym": 16780754,
+            "unicode": 3538,
+            "status": "f",
+            "names": [
+                "Sinh_i2"
+            ]
+        },
+        {
+            "keysym": 16780755,
+            "unicode": 3539,
+            "status": "f",
+            "names": [
+                "Sinh_ii2"
+            ]
+        },
+        {
+            "keysym": 16780756,
+            "unicode": 3540,
+            "status": "f",
+            "names": [
+                "Sinh_u2"
+            ]
+        },
+        {
+            "keysym": 16780758,
+            "unicode": 3542,
+            "status": "f",
+            "names": [
+                "Sinh_uu2"
+            ]
+        },
+        {
+            "keysym": 16780760,
+            "unicode": 3544,
+            "status": "f",
+            "names": [
+                "Sinh_ru2"
+            ]
+        },
+        {
+            "keysym": 16780761,
+            "unicode": 3545,
+            "status": "f",
+            "names": [
+                "Sinh_e2"
+            ]
+        },
+        {
+            "keysym": 16780762,
+            "unicode": 3546,
+            "status": "f",
+            "names": [
+                "Sinh_ee2"
+            ]
+        },
+        {
+            "keysym": 16780763,
+            "unicode": 3547,
+            "status": "f",
+            "names": [
+                "Sinh_ai2"
+            ]
+        },
+        {
+            "keysym": 16780764,
+            "unicode": 3548,
+            "status": "f",
+            "names": [
+                "Sinh_o2"
+            ]
+        },
+        {
+            "keysym": 16780765,
+            "unicode": 3549,
+            "status": "f",
+            "names": [
+                "Sinh_oo2"
+            ]
+        },
+        {
+            "keysym": 16780766,
+            "unicode": 3550,
+            "status": "f",
+            "names": [
+                "Sinh_au2"
+            ]
+        },
+        {
+            "keysym": 16780767,
+            "unicode": 3551,
+            "status": "f",
+            "names": [
+                "Sinh_lu2"
+            ]
+        },
+        {
+            "keysym": 16780786,
+            "unicode": 3570,
+            "status": "f",
+            "names": [
+                "Sinh_ruu2"
+            ]
+        },
+        {
+            "keysym": 16780787,
+            "unicode": 3571,
+            "status": "f",
+            "names": [
+                "Sinh_luu2"
+            ]
+        },
+        {
+            "keysym": 16780788,
+            "unicode": 3572,
+            "status": "f",
+            "names": [
+                "Sinh_kunddaliya"
+            ]
+        },
+        {
+            "keysym": 16785520,
+            "unicode": 8304,
+            "status": "f",
+            "names": [
+                "zerosuperior"
+            ]
+        },
+        {
+            "keysym": 16785524,
+            "unicode": 8308,
+            "status": "f",
+            "names": [
+                "foursuperior"
+            ]
+        },
+        {
+            "keysym": 16785525,
+            "unicode": 8309,
+            "status": "f",
+            "names": [
+                "fivesuperior"
+            ]
+        },
+        {
+            "keysym": 16785526,
+            "unicode": 8310,
+            "status": "f",
+            "names": [
+                "sixsuperior"
+            ]
+        },
+        {
+            "keysym": 16785527,
+            "unicode": 8311,
+            "status": "f",
+            "names": [
+                "sevensuperior"
+            ]
+        },
+        {
+            "keysym": 16785528,
+            "unicode": 8312,
+            "status": "f",
+            "names": [
+                "eightsuperior"
+            ]
+        },
+        {
+            "keysym": 16785529,
+            "unicode": 8313,
+            "status": "f",
+            "names": [
+                "ninesuperior"
+            ]
+        },
+        {
+            "keysym": 16785536,
+            "unicode": 8320,
+            "status": "f",
+            "names": [
+                "zerosubscript"
+            ]
+        },
+        {
+            "keysym": 16785537,
+            "unicode": 8321,
+            "status": "f",
+            "names": [
+                "onesubscript"
+            ]
+        },
+        {
+            "keysym": 16785538,
+            "unicode": 8322,
+            "status": "f",
+            "names": [
+                "twosubscript"
+            ]
+        },
+        {
+            "keysym": 16785539,
+            "unicode": 8323,
+            "status": "f",
+            "names": [
+                "threesubscript"
+            ]
+        },
+        {
+            "keysym": 16785540,
+            "unicode": 8324,
+            "status": "f",
+            "names": [
+                "foursubscript"
+            ]
+        },
+        {
+            "keysym": 16785541,
+            "unicode": 8325,
+            "status": "f",
+            "names": [
+                "fivesubscript"
+            ]
+        },
+        {
+            "keysym": 16785542,
+            "unicode": 8326,
+            "status": "f",
+            "names": [
+                "sixsubscript"
+            ]
+        },
+        {
+            "keysym": 16785543,
+            "unicode": 8327,
+            "status": "f",
+            "names": [
+                "sevensubscript"
+            ]
+        },
+        {
+            "keysym": 16785544,
+            "unicode": 8328,
+            "status": "f",
+            "names": [
+                "eightsubscript"
+            ]
+        },
+        {
+            "keysym": 16785545,
+            "unicode": 8329,
+            "status": "f",
+            "names": [
+                "ninesubscript"
+            ]
+        },
+        {
+            "keysym": 16785922,
+            "unicode": 8706,
+            "status": "f",
+            "names": [
+                "partdifferential"
+            ]
+        },
+        {
+            "keysym": 16785925,
+            "unicode": 8709,
+            "status": "f",
+            "names": [
+                "emptyset"
+            ]
+        },
+        {
+            "keysym": 16785928,
+            "unicode": 8712,
+            "status": "f",
+            "names": [
+                "elementof"
+            ]
+        },
+        {
+            "keysym": 16785929,
+            "unicode": 8713,
+            "status": "f",
+            "names": [
+                "notelementof"
+            ]
+        },
+        {
+            "keysym": 16785931,
+            "unicode": 8715,
+            "status": "f",
+            "names": [
+                "containsas"
+            ]
+        },
+        {
+            "keysym": 16785946,
+            "unicode": 8730,
+            "status": "f",
+            "names": [
+                "squareroot"
+            ]
+        },
+        {
+            "keysym": 16785947,
+            "unicode": 8731,
+            "status": "f",
+            "names": [
+                "cuberoot"
+            ]
+        },
+        {
+            "keysym": 16785948,
+            "unicode": 8732,
+            "status": "f",
+            "names": [
+                "fourthroot"
+            ]
+        },
+        {
+            "keysym": 16785964,
+            "unicode": 8748,
+            "status": "f",
+            "names": [
+                "dintegral"
+            ]
+        },
+        {
+            "keysym": 16785965,
+            "unicode": 8749,
+            "status": "f",
+            "names": [
+                "tintegral"
+            ]
+        },
+        {
+            "keysym": 16785973,
+            "unicode": 8757,
+            "status": "f",
+            "names": [
+                "because"
+            ]
+        },
+        {
+            "keysym": 16785991,
+            "unicode": 8775,
+            "status": "f",
+            "names": [
+                "notapproxeq"
+            ]
+        },
+        {
+            "keysym": 16785992,
+            "unicode": 8776,
+            "status": "f",
+            "names": [
+                "approxeq"
+            ]
+        },
+        {
+            "keysym": 16786018,
+            "unicode": 8802,
+            "status": "f",
+            "names": [
+                "notidentical"
+            ]
+        },
+        {
+            "keysym": 16786019,
+            "unicode": 8803,
+            "status": "f",
+            "names": [
+                "stricteq"
+            ]
+        },
+        {
+            "keysym": 16787456,
+            "unicode": 10240,
+            "status": "f",
+            "names": [
+                "braille_blank"
+            ]
+        },
+        {
+            "keysym": 16787457,
+            "unicode": 10241,
+            "status": "f",
+            "names": [
+                "braille_dots_1"
+            ]
+        },
+        {
+            "keysym": 16787458,
+            "unicode": 10242,
+            "status": "f",
+            "names": [
+                "braille_dots_2"
+            ]
+        },
+        {
+            "keysym": 16787459,
+            "unicode": 10243,
+            "status": "f",
+            "names": [
+                "braille_dots_12"
+            ]
+        },
+        {
+            "keysym": 16787460,
+            "unicode": 10244,
+            "status": "f",
+            "names": [
+                "braille_dots_3"
+            ]
+        },
+        {
+            "keysym": 16787461,
+            "unicode": 10245,
+            "status": "f",
+            "names": [
+                "braille_dots_13"
+            ]
+        },
+        {
+            "keysym": 16787462,
+            "unicode": 10246,
+            "status": "f",
+            "names": [
+                "braille_dots_23"
+            ]
+        },
+        {
+            "keysym": 16787463,
+            "unicode": 10247,
+            "status": "f",
+            "names": [
+                "braille_dots_123"
+            ]
+        },
+        {
+            "keysym": 16787464,
+            "unicode": 10248,
+            "status": "f",
+            "names": [
+                "braille_dots_4"
+            ]
+        },
+        {
+            "keysym": 16787465,
+            "unicode": 10249,
+            "status": "f",
+            "names": [
+                "braille_dots_14"
+            ]
+        },
+        {
+            "keysym": 16787466,
+            "unicode": 10250,
+            "status": "f",
+            "names": [
+                "braille_dots_24"
+            ]
+        },
+        {
+            "keysym": 16787467,
+            "unicode": 10251,
+            "status": "f",
+            "names": [
+                "braille_dots_124"
+            ]
+        },
+        {
+            "keysym": 16787468,
+            "unicode": 10252,
+            "status": "f",
+            "names": [
+                "braille_dots_34"
+            ]
+        },
+        {
+            "keysym": 16787469,
+            "unicode": 10253,
+            "status": "f",
+            "names": [
+                "braille_dots_134"
+            ]
+        },
+        {
+            "keysym": 16787470,
+            "unicode": 10254,
+            "status": "f",
+            "names": [
+                "braille_dots_234"
+            ]
+        },
+        {
+            "keysym": 16787471,
+            "unicode": 10255,
+            "status": "f",
+            "names": [
+                "braille_dots_1234"
+            ]
+        },
+        {
+            "keysym": 16787472,
+            "unicode": 10256,
+            "status": "f",
+            "names": [
+                "braille_dots_5"
+            ]
+        },
+        {
+            "keysym": 16787473,
+            "unicode": 10257,
+            "status": "f",
+            "names": [
+                "braille_dots_15"
+            ]
+        },
+        {
+            "keysym": 16787474,
+            "unicode": 10258,
+            "status": "f",
+            "names": [
+                "braille_dots_25"
+            ]
+        },
+        {
+            "keysym": 16787475,
+            "unicode": 10259,
+            "status": "f",
+            "names": [
+                "braille_dots_125"
+            ]
+        },
+        {
+            "keysym": 16787476,
+            "unicode": 10260,
+            "status": "f",
+            "names": [
+                "braille_dots_35"
+            ]
+        },
+        {
+            "keysym": 16787477,
+            "unicode": 10261,
+            "status": "f",
+            "names": [
+                "braille_dots_135"
+            ]
+        },
+        {
+            "keysym": 16787478,
+            "unicode": 10262,
+            "status": "f",
+            "names": [
+                "braille_dots_235"
+            ]
+        },
+        {
+            "keysym": 16787479,
+            "unicode": 10263,
+            "status": "f",
+            "names": [
+                "braille_dots_1235"
+            ]
+        },
+        {
+            "keysym": 16787480,
+            "unicode": 10264,
+            "status": "f",
+            "names": [
+                "braille_dots_45"
+            ]
+        },
+        {
+            "keysym": 16787481,
+            "unicode": 10265,
+            "status": "f",
+            "names": [
+                "braille_dots_145"
+            ]
+        },
+        {
+            "keysym": 16787482,
+            "unicode": 10266,
+            "status": "f",
+            "names": [
+                "braille_dots_245"
+            ]
+        },
+        {
+            "keysym": 16787483,
+            "unicode": 10267,
+            "status": "f",
+            "names": [
+                "braille_dots_1245"
+            ]
+        },
+        {
+            "keysym": 16787484,
+            "unicode": 10268,
+            "status": "f",
+            "names": [
+                "braille_dots_345"
+            ]
+        },
+        {
+            "keysym": 16787485,
+            "unicode": 10269,
+            "status": "f",
+            "names": [
+                "braille_dots_1345"
+            ]
+        },
+        {
+            "keysym": 16787486,
+            "unicode": 10270,
+            "status": "f",
+            "names": [
+                "braille_dots_2345"
+            ]
+        },
+        {
+            "keysym": 16787487,
+            "unicode": 10271,
+            "status": "f",
+            "names": [
+                "braille_dots_12345"
+            ]
+        },
+        {
+            "keysym": 16787488,
+            "unicode": 10272,
+            "status": "f",
+            "names": [
+                "braille_dots_6"
+            ]
+        },
+        {
+            "keysym": 16787489,
+            "unicode": 10273,
+            "status": "f",
+            "names": [
+                "braille_dots_16"
+            ]
+        },
+        {
+            "keysym": 16787490,
+            "unicode": 10274,
+            "status": "f",
+            "names": [
+                "braille_dots_26"
+            ]
+        },
+        {
+            "keysym": 16787491,
+            "unicode": 10275,
+            "status": "f",
+            "names": [
+                "braille_dots_126"
+            ]
+        },
+        {
+            "keysym": 16787492,
+            "unicode": 10276,
+            "status": "f",
+            "names": [
+                "braille_dots_36"
+            ]
+        },
+        {
+            "keysym": 16787493,
+            "unicode": 10277,
+            "status": "f",
+            "names": [
+                "braille_dots_136"
+            ]
+        },
+        {
+            "keysym": 16787494,
+            "unicode": 10278,
+            "status": "f",
+            "names": [
+                "braille_dots_236"
+            ]
+        },
+        {
+            "keysym": 16787495,
+            "unicode": 10279,
+            "status": "f",
+            "names": [
+                "braille_dots_1236"
+            ]
+        },
+        {
+            "keysym": 16787496,
+            "unicode": 10280,
+            "status": "f",
+            "names": [
+                "braille_dots_46"
+            ]
+        },
+        {
+            "keysym": 16787497,
+            "unicode": 10281,
+            "status": "f",
+            "names": [
+                "braille_dots_146"
+            ]
+        },
+        {
+            "keysym": 16787498,
+            "unicode": 10282,
+            "status": "f",
+            "names": [
+                "braille_dots_246"
+            ]
+        },
+        {
+            "keysym": 16787499,
+            "unicode": 10283,
+            "status": "f",
+            "names": [
+                "braille_dots_1246"
+            ]
+        },
+        {
+            "keysym": 16787500,
+            "unicode": 10284,
+            "status": "f",
+            "names": [
+                "braille_dots_346"
+            ]
+        },
+        {
+            "keysym": 16787501,
+            "unicode": 10285,
+            "status": "f",
+            "names": [
+                "braille_dots_1346"
+            ]
+        },
+        {
+            "keysym": 16787502,
+            "unicode": 10286,
+            "status": "f",
+            "names": [
+                "braille_dots_2346"
+            ]
+        },
+        {
+            "keysym": 16787503,
+            "unicode": 10287,
+            "status": "f",
+            "names": [
+                "braille_dots_12346"
+            ]
+        },
+        {
+            "keysym": 16787504,
+            "unicode": 10288,
+            "status": "f",
+            "names": [
+                "braille_dots_56"
+            ]
+        },
+        {
+            "keysym": 16787505,
+            "unicode": 10289,
+            "status": "f",
+            "names": [
+                "braille_dots_156"
+            ]
+        },
+        {
+            "keysym": 16787506,
+            "unicode": 10290,
+            "status": "f",
+            "names": [
+                "braille_dots_256"
+            ]
+        },
+        {
+            "keysym": 16787507,
+            "unicode": 10291,
+            "status": "f",
+            "names": [
+                "braille_dots_1256"
+            ]
+        },
+        {
+            "keysym": 16787508,
+            "unicode": 10292,
+            "status": "f",
+            "names": [
+                "braille_dots_356"
+            ]
+        },
+        {
+            "keysym": 16787509,
+            "unicode": 10293,
+            "status": "f",
+            "names": [
+                "braille_dots_1356"
+            ]
+        },
+        {
+            "keysym": 16787510,
+            "unicode": 10294,
+            "status": "f",
+            "names": [
+                "braille_dots_2356"
+            ]
+        },
+        {
+            "keysym": 16787511,
+            "unicode": 10295,
+            "status": "f",
+            "names": [
+                "braille_dots_12356"
+            ]
+        },
+        {
+            "keysym": 16787512,
+            "unicode": 10296,
+            "status": "f",
+            "names": [
+                "braille_dots_456"
+            ]
+        },
+        {
+            "keysym": 16787513,
+            "unicode": 10297,
+            "status": "f",
+            "names": [
+                "braille_dots_1456"
+            ]
+        },
+        {
+            "keysym": 16787514,
+            "unicode": 10298,
+            "status": "f",
+            "names": [
+                "braille_dots_2456"
+            ]
+        },
+        {
+            "keysym": 16787515,
+            "unicode": 10299,
+            "status": "f",
+            "names": [
+                "braille_dots_12456"
+            ]
+        },
+        {
+            "keysym": 16787516,
+            "unicode": 10300,
+            "status": "f",
+            "names": [
+                "braille_dots_3456"
+            ]
+        },
+        {
+            "keysym": 16787517,
+            "unicode": 10301,
+            "status": "f",
+            "names": [
+                "braille_dots_13456"
+            ]
+        },
+        {
+            "keysym": 16787518,
+            "unicode": 10302,
+            "status": "f",
+            "names": [
+                "braille_dots_23456"
+            ]
+        },
+        {
+            "keysym": 16787519,
+            "unicode": 10303,
+            "status": "f",
+            "names": [
+                "braille_dots_123456"
+            ]
+        },
+        {
+            "keysym": 16787520,
+            "unicode": 10304,
+            "status": "f",
+            "names": [
+                "braille_dots_7"
+            ]
+        },
+        {
+            "keysym": 16787521,
+            "unicode": 10305,
+            "status": "f",
+            "names": [
+                "braille_dots_17"
+            ]
+        },
+        {
+            "keysym": 16787522,
+            "unicode": 10306,
+            "status": "f",
+            "names": [
+                "braille_dots_27"
+            ]
+        },
+        {
+            "keysym": 16787523,
+            "unicode": 10307,
+            "status": "f",
+            "names": [
+                "braille_dots_127"
+            ]
+        },
+        {
+            "keysym": 16787524,
+            "unicode": 10308,
+            "status": "f",
+            "names": [
+                "braille_dots_37"
+            ]
+        },
+        {
+            "keysym": 16787525,
+            "unicode": 10309,
+            "status": "f",
+            "names": [
+                "braille_dots_137"
+            ]
+        },
+        {
+            "keysym": 16787526,
+            "unicode": 10310,
+            "status": "f",
+            "names": [
+                "braille_dots_237"
+            ]
+        },
+        {
+            "keysym": 16787527,
+            "unicode": 10311,
+            "status": "f",
+            "names": [
+                "braille_dots_1237"
+            ]
+        },
+        {
+            "keysym": 16787528,
+            "unicode": 10312,
+            "status": "f",
+            "names": [
+                "braille_dots_47"
+            ]
+        },
+        {
+            "keysym": 16787529,
+            "unicode": 10313,
+            "status": "f",
+            "names": [
+                "braille_dots_147"
+            ]
+        },
+        {
+            "keysym": 16787530,
+            "unicode": 10314,
+            "status": "f",
+            "names": [
+                "braille_dots_247"
+            ]
+        },
+        {
+            "keysym": 16787531,
+            "unicode": 10315,
+            "status": "f",
+            "names": [
+                "braille_dots_1247"
+            ]
+        },
+        {
+            "keysym": 16787532,
+            "unicode": 10316,
+            "status": "f",
+            "names": [
+                "braille_dots_347"
+            ]
+        },
+        {
+            "keysym": 16787533,
+            "unicode": 10317,
+            "status": "f",
+            "names": [
+                "braille_dots_1347"
+            ]
+        },
+        {
+            "keysym": 16787534,
+            "unicode": 10318,
+            "status": "f",
+            "names": [
+                "braille_dots_2347"
+            ]
+        },
+        {
+            "keysym": 16787535,
+            "unicode": 10319,
+            "status": "f",
+            "names": [
+                "braille_dots_12347"
+            ]
+        },
+        {
+            "keysym": 16787536,
+            "unicode": 10320,
+            "status": "f",
+            "names": [
+                "braille_dots_57"
+            ]
+        },
+        {
+            "keysym": 16787537,
+            "unicode": 10321,
+            "status": "f",
+            "names": [
+                "braille_dots_157"
+            ]
+        },
+        {
+            "keysym": 16787538,
+            "unicode": 10322,
+            "status": "f",
+            "names": [
+                "braille_dots_257"
+            ]
+        },
+        {
+            "keysym": 16787539,
+            "unicode": 10323,
+            "status": "f",
+            "names": [
+                "braille_dots_1257"
+            ]
+        },
+        {
+            "keysym": 16787540,
+            "unicode": 10324,
+            "status": "f",
+            "names": [
+                "braille_dots_357"
+            ]
+        },
+        {
+            "keysym": 16787541,
+            "unicode": 10325,
+            "status": "f",
+            "names": [
+                "braille_dots_1357"
+            ]
+        },
+        {
+            "keysym": 16787542,
+            "unicode": 10326,
+            "status": "f",
+            "names": [
+                "braille_dots_2357"
+            ]
+        },
+        {
+            "keysym": 16787543,
+            "unicode": 10327,
+            "status": "f",
+            "names": [
+                "braille_dots_12357"
+            ]
+        },
+        {
+            "keysym": 16787544,
+            "unicode": 10328,
+            "status": "f",
+            "names": [
+                "braille_dots_457"
+            ]
+        },
+        {
+            "keysym": 16787545,
+            "unicode": 10329,
+            "status": "f",
+            "names": [
+                "braille_dots_1457"
+            ]
+        },
+        {
+            "keysym": 16787546,
+            "unicode": 10330,
+            "status": "f",
+            "names": [
+                "braille_dots_2457"
+            ]
+        },
+        {
+            "keysym": 16787547,
+            "unicode": 10331,
+            "status": "f",
+            "names": [
+                "braille_dots_12457"
+            ]
+        },
+        {
+            "keysym": 16787548,
+            "unicode": 10332,
+            "status": "f",
+            "names": [
+                "braille_dots_3457"
+            ]
+        },
+        {
+            "keysym": 16787549,
+            "unicode": 10333,
+            "status": "f",
+            "names": [
+                "braille_dots_13457"
+            ]
+        },
+        {
+            "keysym": 16787550,
+            "unicode": 10334,
+            "status": "f",
+            "names": [
+                "braille_dots_23457"
+            ]
+        },
+        {
+            "keysym": 16787551,
+            "unicode": 10335,
+            "status": "f",
+            "names": [
+                "braille_dots_123457"
+            ]
+        },
+        {
+            "keysym": 16787552,
+            "unicode": 10336,
+            "status": "f",
+            "names": [
+                "braille_dots_67"
+            ]
+        },
+        {
+            "keysym": 16787553,
+            "unicode": 10337,
+            "status": "f",
+            "names": [
+                "braille_dots_167"
+            ]
+        },
+        {
+            "keysym": 16787554,
+            "unicode": 10338,
+            "status": "f",
+            "names": [
+                "braille_dots_267"
+            ]
+        },
+        {
+            "keysym": 16787555,
+            "unicode": 10339,
+            "status": "f",
+            "names": [
+                "braille_dots_1267"
+            ]
+        },
+        {
+            "keysym": 16787556,
+            "unicode": 10340,
+            "status": "f",
+            "names": [
+                "braille_dots_367"
+            ]
+        },
+        {
+            "keysym": 16787557,
+            "unicode": 10341,
+            "status": "f",
+            "names": [
+                "braille_dots_1367"
+            ]
+        },
+        {
+            "keysym": 16787558,
+            "unicode": 10342,
+            "status": "f",
+            "names": [
+                "braille_dots_2367"
+            ]
+        },
+        {
+            "keysym": 16787559,
+            "unicode": 10343,
+            "status": "f",
+            "names": [
+                "braille_dots_12367"
+            ]
+        },
+        {
+            "keysym": 16787560,
+            "unicode": 10344,
+            "status": "f",
+            "names": [
+                "braille_dots_467"
+            ]
+        },
+        {
+            "keysym": 16787561,
+            "unicode": 10345,
+            "status": "f",
+            "names": [
+                "braille_dots_1467"
+            ]
+        },
+        {
+            "keysym": 16787562,
+            "unicode": 10346,
+            "status": "f",
+            "names": [
+                "braille_dots_2467"
+            ]
+        },
+        {
+            "keysym": 16787563,
+            "unicode": 10347,
+            "status": "f",
+            "names": [
+                "braille_dots_12467"
+            ]
+        },
+        {
+            "keysym": 16787564,
+            "unicode": 10348,
+            "status": "f",
+            "names": [
+                "braille_dots_3467"
+            ]
+        },
+        {
+            "keysym": 16787565,
+            "unicode": 10349,
+            "status": "f",
+            "names": [
+                "braille_dots_13467"
+            ]
+        },
+        {
+            "keysym": 16787566,
+            "unicode": 10350,
+            "status": "f",
+            "names": [
+                "braille_dots_23467"
+            ]
+        },
+        {
+            "keysym": 16787567,
+            "unicode": 10351,
+            "status": "f",
+            "names": [
+                "braille_dots_123467"
+            ]
+        },
+        {
+            "keysym": 16787568,
+            "unicode": 10352,
+            "status": "f",
+            "names": [
+                "braille_dots_567"
+            ]
+        },
+        {
+            "keysym": 16787569,
+            "unicode": 10353,
+            "status": "f",
+            "names": [
+                "braille_dots_1567"
+            ]
+        },
+        {
+            "keysym": 16787570,
+            "unicode": 10354,
+            "status": "f",
+            "names": [
+                "braille_dots_2567"
+            ]
+        },
+        {
+            "keysym": 16787571,
+            "unicode": 10355,
+            "status": "f",
+            "names": [
+                "braille_dots_12567"
+            ]
+        },
+        {
+            "keysym": 16787572,
+            "unicode": 10356,
+            "status": "f",
+            "names": [
+                "braille_dots_3567"
+            ]
+        },
+        {
+            "keysym": 16787573,
+            "unicode": 10357,
+            "status": "f",
+            "names": [
+                "braille_dots_13567"
+            ]
+        },
+        {
+            "keysym": 16787574,
+            "unicode": 10358,
+            "status": "f",
+            "names": [
+                "braille_dots_23567"
+            ]
+        },
+        {
+            "keysym": 16787575,
+            "unicode": 10359,
+            "status": "f",
+            "names": [
+                "braille_dots_123567"
+            ]
+        },
+        {
+            "keysym": 16787576,
+            "unicode": 10360,
+            "status": "f",
+            "names": [
+                "braille_dots_4567"
+            ]
+        },
+        {
+            "keysym": 16787577,
+            "unicode": 10361,
+            "status": "f",
+            "names": [
+                "braille_dots_14567"
+            ]
+        },
+        {
+            "keysym": 16787578,
+            "unicode": 10362,
+            "status": "f",
+            "names": [
+                "braille_dots_24567"
+            ]
+        },
+        {
+            "keysym": 16787579,
+            "unicode": 10363,
+            "status": "f",
+            "names": [
+                "braille_dots_124567"
+            ]
+        },
+        {
+            "keysym": 16787580,
+            "unicode": 10364,
+            "status": "f",
+            "names": [
+                "braille_dots_34567"
+            ]
+        },
+        {
+            "keysym": 16787581,
+            "unicode": 10365,
+            "status": "f",
+            "names": [
+                "braille_dots_134567"
+            ]
+        },
+        {
+            "keysym": 16787582,
+            "unicode": 10366,
+            "status": "f",
+            "names": [
+                "braille_dots_234567"
+            ]
+        },
+        {
+            "keysym": 16787583,
+            "unicode": 10367,
+            "status": "f",
+            "names": [
+                "braille_dots_1234567"
+            ]
+        },
+        {
+            "keysym": 16787584,
+            "unicode": 10368,
+            "status": "f",
+            "names": [
+                "braille_dots_8"
+            ]
+        },
+        {
+            "keysym": 16787585,
+            "unicode": 10369,
+            "status": "f",
+            "names": [
+                "braille_dots_18"
+            ]
+        },
+        {
+            "keysym": 16787586,
+            "unicode": 10370,
+            "status": "f",
+            "names": [
+                "braille_dots_28"
+            ]
+        },
+        {
+            "keysym": 16787587,
+            "unicode": 10371,
+            "status": "f",
+            "names": [
+                "braille_dots_128"
+            ]
+        },
+        {
+            "keysym": 16787588,
+            "unicode": 10372,
+            "status": "f",
+            "names": [
+                "braille_dots_38"
+            ]
+        },
+        {
+            "keysym": 16787589,
+            "unicode": 10373,
+            "status": "f",
+            "names": [
+                "braille_dots_138"
+            ]
+        },
+        {
+            "keysym": 16787590,
+            "unicode": 10374,
+            "status": "f",
+            "names": [
+                "braille_dots_238"
+            ]
+        },
+        {
+            "keysym": 16787591,
+            "unicode": 10375,
+            "status": "f",
+            "names": [
+                "braille_dots_1238"
+            ]
+        },
+        {
+            "keysym": 16787592,
+            "unicode": 10376,
+            "status": "f",
+            "names": [
+                "braille_dots_48"
+            ]
+        },
+        {
+            "keysym": 16787593,
+            "unicode": 10377,
+            "status": "f",
+            "names": [
+                "braille_dots_148"
+            ]
+        },
+        {
+            "keysym": 16787594,
+            "unicode": 10378,
+            "status": "f",
+            "names": [
+                "braille_dots_248"
+            ]
+        },
+        {
+            "keysym": 16787595,
+            "unicode": 10379,
+            "status": "f",
+            "names": [
+                "braille_dots_1248"
+            ]
+        },
+        {
+            "keysym": 16787596,
+            "unicode": 10380,
+            "status": "f",
+            "names": [
+                "braille_dots_348"
+            ]
+        },
+        {
+            "keysym": 16787597,
+            "unicode": 10381,
+            "status": "f",
+            "names": [
+                "braille_dots_1348"
+            ]
+        },
+        {
+            "keysym": 16787598,
+            "unicode": 10382,
+            "status": "f",
+            "names": [
+                "braille_dots_2348"
+            ]
+        },
+        {
+            "keysym": 16787599,
+            "unicode": 10383,
+            "status": "f",
+            "names": [
+                "braille_dots_12348"
+            ]
+        },
+        {
+            "keysym": 16787600,
+            "unicode": 10384,
+            "status": "f",
+            "names": [
+                "braille_dots_58"
+            ]
+        },
+        {
+            "keysym": 16787601,
+            "unicode": 10385,
+            "status": "f",
+            "names": [
+                "braille_dots_158"
+            ]
+        },
+        {
+            "keysym": 16787602,
+            "unicode": 10386,
+            "status": "f",
+            "names": [
+                "braille_dots_258"
+            ]
+        },
+        {
+            "keysym": 16787603,
+            "unicode": 10387,
+            "status": "f",
+            "names": [
+                "braille_dots_1258"
+            ]
+        },
+        {
+            "keysym": 16787604,
+            "unicode": 10388,
+            "status": "f",
+            "names": [
+                "braille_dots_358"
+            ]
+        },
+        {
+            "keysym": 16787605,
+            "unicode": 10389,
+            "status": "f",
+            "names": [
+                "braille_dots_1358"
+            ]
+        },
+        {
+            "keysym": 16787606,
+            "unicode": 10390,
+            "status": "f",
+            "names": [
+                "braille_dots_2358"
+            ]
+        },
+        {
+            "keysym": 16787607,
+            "unicode": 10391,
+            "status": "f",
+            "names": [
+                "braille_dots_12358"
+            ]
+        },
+        {
+            "keysym": 16787608,
+            "unicode": 10392,
+            "status": "f",
+            "names": [
+                "braille_dots_458"
+            ]
+        },
+        {
+            "keysym": 16787609,
+            "unicode": 10393,
+            "status": "f",
+            "names": [
+                "braille_dots_1458"
+            ]
+        },
+        {
+            "keysym": 16787610,
+            "unicode": 10394,
+            "status": "f",
+            "names": [
+                "braille_dots_2458"
+            ]
+        },
+        {
+            "keysym": 16787611,
+            "unicode": 10395,
+            "status": "f",
+            "names": [
+                "braille_dots_12458"
+            ]
+        },
+        {
+            "keysym": 16787612,
+            "unicode": 10396,
+            "status": "f",
+            "names": [
+                "braille_dots_3458"
+            ]
+        },
+        {
+            "keysym": 16787613,
+            "unicode": 10397,
+            "status": "f",
+            "names": [
+                "braille_dots_13458"
+            ]
+        },
+        {
+            "keysym": 16787614,
+            "unicode": 10398,
+            "status": "f",
+            "names": [
+                "braille_dots_23458"
+            ]
+        },
+        {
+            "keysym": 16787615,
+            "unicode": 10399,
+            "status": "f",
+            "names": [
+                "braille_dots_123458"
+            ]
+        },
+        {
+            "keysym": 16787616,
+            "unicode": 10400,
+            "status": "f",
+            "names": [
+                "braille_dots_68"
+            ]
+        },
+        {
+            "keysym": 16787617,
+            "unicode": 10401,
+            "status": "f",
+            "names": [
+                "braille_dots_168"
+            ]
+        },
+        {
+            "keysym": 16787618,
+            "unicode": 10402,
+            "status": "f",
+            "names": [
+                "braille_dots_268"
+            ]
+        },
+        {
+            "keysym": 16787619,
+            "unicode": 10403,
+            "status": "f",
+            "names": [
+                "braille_dots_1268"
+            ]
+        },
+        {
+            "keysym": 16787620,
+            "unicode": 10404,
+            "status": "f",
+            "names": [
+                "braille_dots_368"
+            ]
+        },
+        {
+            "keysym": 16787621,
+            "unicode": 10405,
+            "status": "f",
+            "names": [
+                "braille_dots_1368"
+            ]
+        },
+        {
+            "keysym": 16787622,
+            "unicode": 10406,
+            "status": "f",
+            "names": [
+                "braille_dots_2368"
+            ]
+        },
+        {
+            "keysym": 16787623,
+            "unicode": 10407,
+            "status": "f",
+            "names": [
+                "braille_dots_12368"
+            ]
+        },
+        {
+            "keysym": 16787624,
+            "unicode": 10408,
+            "status": "f",
+            "names": [
+                "braille_dots_468"
+            ]
+        },
+        {
+            "keysym": 16787625,
+            "unicode": 10409,
+            "status": "f",
+            "names": [
+                "braille_dots_1468"
+            ]
+        },
+        {
+            "keysym": 16787626,
+            "unicode": 10410,
+            "status": "f",
+            "names": [
+                "braille_dots_2468"
+            ]
+        },
+        {
+            "keysym": 16787627,
+            "unicode": 10411,
+            "status": "f",
+            "names": [
+                "braille_dots_12468"
+            ]
+        },
+        {
+            "keysym": 16787628,
+            "unicode": 10412,
+            "status": "f",
+            "names": [
+                "braille_dots_3468"
+            ]
+        },
+        {
+            "keysym": 16787629,
+            "unicode": 10413,
+            "status": "f",
+            "names": [
+                "braille_dots_13468"
+            ]
+        },
+        {
+            "keysym": 16787630,
+            "unicode": 10414,
+            "status": "f",
+            "names": [
+                "braille_dots_23468"
+            ]
+        },
+        {
+            "keysym": 16787631,
+            "unicode": 10415,
+            "status": "f",
+            "names": [
+                "braille_dots_123468"
+            ]
+        },
+        {
+            "keysym": 16787632,
+            "unicode": 10416,
+            "status": "f",
+            "names": [
+                "braille_dots_568"
+            ]
+        },
+        {
+            "keysym": 16787633,
+            "unicode": 10417,
+            "status": "f",
+            "names": [
+                "braille_dots_1568"
+            ]
+        },
+        {
+            "keysym": 16787634,
+            "unicode": 10418,
+            "status": "f",
+            "names": [
+                "braille_dots_2568"
+            ]
+        },
+        {
+            "keysym": 16787635,
+            "unicode": 10419,
+            "status": "f",
+            "names": [
+                "braille_dots_12568"
+            ]
+        },
+        {
+            "keysym": 16787636,
+            "unicode": 10420,
+            "status": "f",
+            "names": [
+                "braille_dots_3568"
+            ]
+        },
+        {
+            "keysym": 16787637,
+            "unicode": 10421,
+            "status": "f",
+            "names": [
+                "braille_dots_13568"
+            ]
+        },
+        {
+            "keysym": 16787638,
+            "unicode": 10422,
+            "status": "f",
+            "names": [
+                "braille_dots_23568"
+            ]
+        },
+        {
+            "keysym": 16787639,
+            "unicode": 10423,
+            "status": "f",
+            "names": [
+                "braille_dots_123568"
+            ]
+        },
+        {
+            "keysym": 16787640,
+            "unicode": 10424,
+            "status": "f",
+            "names": [
+                "braille_dots_4568"
+            ]
+        },
+        {
+            "keysym": 16787641,
+            "unicode": 10425,
+            "status": "f",
+            "names": [
+                "braille_dots_14568"
+            ]
+        },
+        {
+            "keysym": 16787642,
+            "unicode": 10426,
+            "status": "f",
+            "names": [
+                "braille_dots_24568"
+            ]
+        },
+        {
+            "keysym": 16787643,
+            "unicode": 10427,
+            "status": "f",
+            "names": [
+                "braille_dots_124568"
+            ]
+        },
+        {
+            "keysym": 16787644,
+            "unicode": 10428,
+            "status": "f",
+            "names": [
+                "braille_dots_34568"
+            ]
+        },
+        {
+            "keysym": 16787645,
+            "unicode": 10429,
+            "status": "f",
+            "names": [
+                "braille_dots_134568"
+            ]
+        },
+        {
+            "keysym": 16787646,
+            "unicode": 10430,
+            "status": "f",
+            "names": [
+                "braille_dots_234568"
+            ]
+        },
+        {
+            "keysym": 16787647,
+            "unicode": 10431,
+            "status": "f",
+            "names": [
+                "braille_dots_1234568"
+            ]
+        },
+        {
+            "keysym": 16787648,
+            "unicode": 10432,
+            "status": "f",
+            "names": [
+                "braille_dots_78"
+            ]
+        },
+        {
+            "keysym": 16787649,
+            "unicode": 10433,
+            "status": "f",
+            "names": [
+                "braille_dots_178"
+            ]
+        },
+        {
+            "keysym": 16787650,
+            "unicode": 10434,
+            "status": "f",
+            "names": [
+                "braille_dots_278"
+            ]
+        },
+        {
+            "keysym": 16787651,
+            "unicode": 10435,
+            "status": "f",
+            "names": [
+                "braille_dots_1278"
+            ]
+        },
+        {
+            "keysym": 16787652,
+            "unicode": 10436,
+            "status": "f",
+            "names": [
+                "braille_dots_378"
+            ]
+        },
+        {
+            "keysym": 16787653,
+            "unicode": 10437,
+            "status": "f",
+            "names": [
+                "braille_dots_1378"
+            ]
+        },
+        {
+            "keysym": 16787654,
+            "unicode": 10438,
+            "status": "f",
+            "names": [
+                "braille_dots_2378"
+            ]
+        },
+        {
+            "keysym": 16787655,
+            "unicode": 10439,
+            "status": "f",
+            "names": [
+                "braille_dots_12378"
+            ]
+        },
+        {
+            "keysym": 16787656,
+            "unicode": 10440,
+            "status": "f",
+            "names": [
+                "braille_dots_478"
+            ]
+        },
+        {
+            "keysym": 16787657,
+            "unicode": 10441,
+            "status": "f",
+            "names": [
+                "braille_dots_1478"
+            ]
+        },
+        {
+            "keysym": 16787658,
+            "unicode": 10442,
+            "status": "f",
+            "names": [
+                "braille_dots_2478"
+            ]
+        },
+        {
+            "keysym": 16787659,
+            "unicode": 10443,
+            "status": "f",
+            "names": [
+                "braille_dots_12478"
+            ]
+        },
+        {
+            "keysym": 16787660,
+            "unicode": 10444,
+            "status": "f",
+            "names": [
+                "braille_dots_3478"
+            ]
+        },
+        {
+            "keysym": 16787661,
+            "unicode": 10445,
+            "status": "f",
+            "names": [
+                "braille_dots_13478"
+            ]
+        },
+        {
+            "keysym": 16787662,
+            "unicode": 10446,
+            "status": "f",
+            "names": [
+                "braille_dots_23478"
+            ]
+        },
+        {
+            "keysym": 16787663,
+            "unicode": 10447,
+            "status": "f",
+            "names": [
+                "braille_dots_123478"
+            ]
+        },
+        {
+            "keysym": 16787664,
+            "unicode": 10448,
+            "status": "f",
+            "names": [
+                "braille_dots_578"
+            ]
+        },
+        {
+            "keysym": 16787665,
+            "unicode": 10449,
+            "status": "f",
+            "names": [
+                "braille_dots_1578"
+            ]
+        },
+        {
+            "keysym": 16787666,
+            "unicode": 10450,
+            "status": "f",
+            "names": [
+                "braille_dots_2578"
+            ]
+        },
+        {
+            "keysym": 16787667,
+            "unicode": 10451,
+            "status": "f",
+            "names": [
+                "braille_dots_12578"
+            ]
+        },
+        {
+            "keysym": 16787668,
+            "unicode": 10452,
+            "status": "f",
+            "names": [
+                "braille_dots_3578"
+            ]
+        },
+        {
+            "keysym": 16787669,
+            "unicode": 10453,
+            "status": "f",
+            "names": [
+                "braille_dots_13578"
+            ]
+        },
+        {
+            "keysym": 16787670,
+            "unicode": 10454,
+            "status": "f",
+            "names": [
+                "braille_dots_23578"
+            ]
+        },
+        {
+            "keysym": 16787671,
+            "unicode": 10455,
+            "status": "f",
+            "names": [
+                "braille_dots_123578"
+            ]
+        },
+        {
+            "keysym": 16787672,
+            "unicode": 10456,
+            "status": "f",
+            "names": [
+                "braille_dots_4578"
+            ]
+        },
+        {
+            "keysym": 16787673,
+            "unicode": 10457,
+            "status": "f",
+            "names": [
+                "braille_dots_14578"
+            ]
+        },
+        {
+            "keysym": 16787674,
+            "unicode": 10458,
+            "status": "f",
+            "names": [
+                "braille_dots_24578"
+            ]
+        },
+        {
+            "keysym": 16787675,
+            "unicode": 10459,
+            "status": "f",
+            "names": [
+                "braille_dots_124578"
+            ]
+        },
+        {
+            "keysym": 16787676,
+            "unicode": 10460,
+            "status": "f",
+            "names": [
+                "braille_dots_34578"
+            ]
+        },
+        {
+            "keysym": 16787677,
+            "unicode": 10461,
+            "status": "f",
+            "names": [
+                "braille_dots_134578"
+            ]
+        },
+        {
+            "keysym": 16787678,
+            "unicode": 10462,
+            "status": "f",
+            "names": [
+                "braille_dots_234578"
+            ]
+        },
+        {
+            "keysym": 16787679,
+            "unicode": 10463,
+            "status": "f",
+            "names": [
+                "braille_dots_1234578"
+            ]
+        },
+        {
+            "keysym": 16787680,
+            "unicode": 10464,
+            "status": "f",
+            "names": [
+                "braille_dots_678"
+            ]
+        },
+        {
+            "keysym": 16787681,
+            "unicode": 10465,
+            "status": "f",
+            "names": [
+                "braille_dots_1678"
+            ]
+        },
+        {
+            "keysym": 16787682,
+            "unicode": 10466,
+            "status": "f",
+            "names": [
+                "braille_dots_2678"
+            ]
+        },
+        {
+            "keysym": 16787683,
+            "unicode": 10467,
+            "status": "f",
+            "names": [
+                "braille_dots_12678"
+            ]
+        },
+        {
+            "keysym": 16787684,
+            "unicode": 10468,
+            "status": "f",
+            "names": [
+                "braille_dots_3678"
+            ]
+        },
+        {
+            "keysym": 16787685,
+            "unicode": 10469,
+            "status": "f",
+            "names": [
+                "braille_dots_13678"
+            ]
+        },
+        {
+            "keysym": 16787686,
+            "unicode": 10470,
+            "status": "f",
+            "names": [
+                "braille_dots_23678"
+            ]
+        },
+        {
+            "keysym": 16787687,
+            "unicode": 10471,
+            "status": "f",
+            "names": [
+                "braille_dots_123678"
+            ]
+        },
+        {
+            "keysym": 16787688,
+            "unicode": 10472,
+            "status": "f",
+            "names": [
+                "braille_dots_4678"
+            ]
+        },
+        {
+            "keysym": 16787689,
+            "unicode": 10473,
+            "status": "f",
+            "names": [
+                "braille_dots_14678"
+            ]
+        },
+        {
+            "keysym": 16787690,
+            "unicode": 10474,
+            "status": "f",
+            "names": [
+                "braille_dots_24678"
+            ]
+        },
+        {
+            "keysym": 16787691,
+            "unicode": 10475,
+            "status": "f",
+            "names": [
+                "braille_dots_124678"
+            ]
+        },
+        {
+            "keysym": 16787692,
+            "unicode": 10476,
+            "status": "f",
+            "names": [
+                "braille_dots_34678"
+            ]
+        },
+        {
+            "keysym": 16787693,
+            "unicode": 10477,
+            "status": "f",
+            "names": [
+                "braille_dots_134678"
+            ]
+        },
+        {
+            "keysym": 16787694,
+            "unicode": 10478,
+            "status": "f",
+            "names": [
+                "braille_dots_234678"
+            ]
+        },
+        {
+            "keysym": 16787695,
+            "unicode": 10479,
+            "status": "f",
+            "names": [
+                "braille_dots_1234678"
+            ]
+        },
+        {
+            "keysym": 16787696,
+            "unicode": 10480,
+            "status": "f",
+            "names": [
+                "braille_dots_5678"
+            ]
+        },
+        {
+            "keysym": 16787697,
+            "unicode": 10481,
+            "status": "f",
+            "names": [
+                "braille_dots_15678"
+            ]
+        },
+        {
+            "keysym": 16787698,
+            "unicode": 10482,
+            "status": "f",
+            "names": [
+                "braille_dots_25678"
+            ]
+        },
+        {
+            "keysym": 16787699,
+            "unicode": 10483,
+            "status": "f",
+            "names": [
+                "braille_dots_125678"
+            ]
+        },
+        {
+            "keysym": 16787700,
+            "unicode": 10484,
+            "status": "f",
+            "names": [
+                "braille_dots_35678"
+            ]
+        },
+        {
+            "keysym": 16787701,
+            "unicode": 10485,
+            "status": "f",
+            "names": [
+                "braille_dots_135678"
+            ]
+        },
+        {
+            "keysym": 16787702,
+            "unicode": 10486,
+            "status": "f",
+            "names": [
+                "braille_dots_235678"
+            ]
+        },
+        {
+            "keysym": 16787703,
+            "unicode": 10487,
+            "status": "f",
+            "names": [
+                "braille_dots_1235678"
+            ]
+        },
+        {
+            "keysym": 16787704,
+            "unicode": 10488,
+            "status": "f",
+            "names": [
+                "braille_dots_45678"
+            ]
+        },
+        {
+            "keysym": 16787705,
+            "unicode": 10489,
+            "status": "f",
+            "names": [
+                "braille_dots_145678"
+            ]
+        },
+        {
+            "keysym": 16787706,
+            "unicode": 10490,
+            "status": "f",
+            "names": [
+                "braille_dots_245678"
+            ]
+        },
+        {
+            "keysym": 16787707,
+            "unicode": 10491,
+            "status": "f",
+            "names": [
+                "braille_dots_1245678"
+            ]
+        },
+        {
+            "keysym": 16787708,
+            "unicode": 10492,
+            "status": "f",
+            "names": [
+                "braille_dots_345678"
+            ]
+        },
+        {
+            "keysym": 16787709,
+            "unicode": 10493,
+            "status": "f",
+            "names": [
+                "braille_dots_1345678"
+            ]
+        },
+        {
+            "keysym": 16787710,
+            "unicode": 10494,
+            "status": "f",
+            "names": [
+                "braille_dots_2345678"
+            ]
+        },
+        {
+            "keysym": 16787711,
+            "unicode": 10495,
+            "status": "f",
+            "names": [
+                "braille_dots_12345678"
             ]
         }
     ]

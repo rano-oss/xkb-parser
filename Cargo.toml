@@ -16,6 +16,7 @@ from-pest = "0.3.2"
 derivative = "2.2.0"
 log = "0.4.20"
 shrinkwraprs = "0.3.0"
+x11-keysymdef = { path = "x11-keysymdef" }
 
 [dev-dependencies]
 env_logger = "0.11.9"

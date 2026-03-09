@@ -136,7 +136,7 @@ fn test_ast_symbol() {
                     content: StringContent { content: "PC_ALT_LEVEL2" },
                 })),
                 KeyValue::KeyDefs(KeyDef::SymbolDef(SymbolDef {
-                    group: Group { content: "Group1" },
+                    group: Some(Group { content: "Group1" }),
                     values: KeyNames {
                         values: vec![Ident { content: "Print" }, Ident { content: "Sys_Req" }],
                     },
@@ -168,27 +168,27 @@ fn test_ast_symbol() {
     );
 
     assert_parse(
-            Rule::xkb_symbols_item,
-            r#"key <AC01> { [ a,            A,              aogonek,         Aogonek    ], type[Group1] = "EIGHT_LEVEL_ALPHABETIC" };"#,
-            XkbSymbolsItem::Key(Key {
-                mode: None,
-                id: Symbol { content: "AC01" },
-                values: vec![
-                    KeyValue::KeyNames(KeyNames {
-                        values: vec![
-                            Ident { content: "a" },
-                            Ident { content: "A" },
-                            Ident { content: "aogonek" },
-                            Ident { content: "Aogonek" },
-                        ],
-                    }),
-                    KeyValue::KeyDefs(KeyDef::TypeDef(TypeDef {
-                        group: Some(Group { content: "Group1" }),
-                        content: StringContent { content: "EIGHT_LEVEL_ALPHABETIC" },
-                    })),
-                ],
-            }),
-        );
+        Rule::xkb_symbols_item,
+        r#"key <AC01> { [ a,            A,              aogonek,         Aogonek    ], type[Group1] = "EIGHT_LEVEL_ALPHABETIC" };"#,
+        XkbSymbolsItem::Key(Key {
+            mode: None,
+            id: Symbol { content: "AC01" },
+            values: vec![
+                KeyValue::KeyNames(KeyNames {
+                    values: vec![
+                        Ident { content: "a" },
+                        Ident { content: "A" },
+                        Ident { content: "aogonek" },
+                        Ident { content: "Aogonek" },
+                    ],
+                }),
+                KeyValue::KeyDefs(KeyDef::TypeDef(TypeDef {
+                    group: Some(Group { content: "Group1" }),
+                    content: StringContent { content: "EIGHT_LEVEL_ALPHABETIC" },
+                })),
+            ],
+        }),
+    );
 
     assert_parse(
         Rule::xkb_symbols_item,
@@ -206,7 +206,7 @@ fn test_ast_symbol() {
                     content: StringContent { content: "ONE_LEVEL" },
                 })),
                 KeyValue::KeyDefs(KeyDef::SymbolDef(SymbolDef {
-                    group: Group { content: "Group1" },
+                    group: Some(Group { content: "Group1" }),
                     values: KeyNames { values: vec![Ident { content: "Caps_Lock" }] },
                 })),
                 KeyValue::KeyDefs(KeyDef::ActionsDef(ActionsDef {
@@ -361,7 +361,7 @@ fn test_geometry_section() {
 fn enable_logging() {
     let _ = env_logger::builder()
         .filter(None, log::LevelFilter::Trace)
-        .default_format_timestamp(false)
+        .format_timestamp(None)
         .is_test(true)
         .try_init();
 }

@@ -48,6 +48,34 @@ pub struct Include<'src> {
     pub name: StringContent<'src>,
 }
 
+impl<'src> Include<'src> {
+    /// Parse the include string into a file/locale name and an optional layout
+    /// variant.
+    ///
+    /// XKB include strings follow the pattern `locale` or `locale(variant)`,
+    /// e.g. `"us"` → `("us", None)` and `"us(basic)"` → `("us", Some("basic"))`.
+    pub fn parse_name(&self) -> (&str, Option<&str>) {
+        parse_include(self.name.content)
+    }
+}
+
+/// Split an XKB include string into a file/locale name and an optional layout
+/// variant.
+///
+/// XKB include strings follow the pattern `locale` or `locale(variant)`,
+/// e.g. `"us"` → `("us", None)` and `"us(basic)"` → `("us", Some("basic"))`.
+pub fn parse_include(input: &str) -> (&str, Option<&str>) {
+    match input.find('(') {
+        None => (input, None),
+        Some(paren_open) => {
+            let locale = &input[..paren_open];
+            let rest = &input[paren_open + 1..];
+            let variant = rest.trim_end_matches(')');
+            (locale, Some(variant))
+        }
+    }
+}
+
 #[derive(Derivative, FromPest, Clone, PartialEq)]
 #[derivative(Debug)]
 #[pest_ast(rule(Rule::override_))]

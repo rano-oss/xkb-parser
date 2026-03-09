@@ -1,6 +1,8 @@
 pub use crate::xkb::{Rule, XkbParser};
+pub use ast::parse_include;
 pub use ast::File as Xkb;
 use from_pest::FromPest;
+pub use keysym::keysym_name_to_char;
 use pest::Parser;
 use std::error::Error;
 
@@ -19,3 +21,4 @@ pub(crate) mod xkb {
 }
 
 pub mod ast;
+mod keysym;
