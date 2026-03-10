@@ -1473,7 +1473,8 @@
             "unicode": 248,
             "status": ".",
             "names": [
-                "oslash"
+                "oslash",
+                "ooblique"
             ]
         },
         {
@@ -13042,7 +13043,7 @@
         },
         {
             "keysym": 65132,
-            "unicode": 776,
+            "unicode": 804,
             "status": "f",
             "names": [
                 "dead_belowdiaeresis"
@@ -13182,6 +13183,14 @@
             "status": "f",
             "names": [
                 "dead_hamza"
+            ]
+        },
+        {
+            "keysym": 65167,
+            "unicode": 164,
+            "status": "f",
+            "names": [
+                "dead_currency"
             ]
         },
         {
