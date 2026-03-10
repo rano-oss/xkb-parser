@@ -162,9 +162,5 @@ fn enable_logging() {
         _ => log::LevelFilter::Trace,
     };
 
-    let _ = env_logger::builder()
-        .filter(None, level)
-        .default_format_timestamp(false)
-        .is_test(true)
-        .try_init();
+    let _ = env_logger::builder().filter(None, level).is_test(true).try_init();
 }

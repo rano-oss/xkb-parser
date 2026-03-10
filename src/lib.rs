@@ -21,4 +21,6 @@ pub(crate) mod xkb {
 }
 
 pub mod ast;
+pub mod compose;
 mod keysym;
+pub use compose::{parse_compose_file, ComposeEntry};
