@@ -18,11 +18,6 @@ pub struct ComposeEntry {
 struct ComposeParser;
 
 /// Parse a compose file and return resolved entries.
-///
-/// Implementation notes:
-/// - Uses `pest` to parse the whole file, then converts pairs into
-///   `ComposeEntry`. We preserve include recursion and the output heuristics
-///   used previously.
 pub fn parse_compose_file(path: &Path) -> Vec<ComposeEntry> {
     let mut out = Vec::new();
     parse_compose_file_impl(path, &mut out);
@@ -61,25 +56,20 @@ fn parse_compose_file_impl(path: &Path, out: &mut Vec<ComposeEntry>) {
                     }
                 }
                 Rule::rule_line => {
-                    // Extract keys and value pairs (order is as in grammar)
-                    let mut it = line.into_inner();
-                    let keys_pair = it.find(|p| p.as_rule() == Rule::keys);
-                    let value_pair = it.find(|p| p.as_rule() == Rule::value);
-                    if keys_pair.is_none() || value_pair.is_none() {
-                        continue;
-                    }
-                    let keys_pair = keys_pair.unwrap();
-                    let value_pair = value_pair.unwrap();
-
-                    if let Some((keys, names, multi_index)) = parse_keys_pair(keys_pair) {
-                        let (opt_out, _name) = parse_value_pair(value_pair);
-                        if let Some(ch) = opt_out {
-                            out.push(ComposeEntry {
-                                keys,
-                                keysym_names: names,
-                                multi_key_index: multi_index,
-                                output: ch,
-                            });
+                    let mut inner = line.into_inner();
+                    let keys_pair = inner.find(|p| p.as_rule() == Rule::keys);
+                    let value_pair = inner.find(|p| p.as_rule() == Rule::value);
+                    if let (Some(kp), Some(vp)) = (keys_pair, value_pair) {
+                        if let Some((keys, names, multi_index)) = resolve_keys(kp) {
+                            let (opt_out, _name) = resolve_value(vp);
+                            if let Some(ch) = opt_out {
+                                out.push(ComposeEntry {
+                                    keys,
+                                    keysym_names: names,
+                                    multi_key_index: multi_index,
+                                    output: ch,
+                                });
+                            }
                         }
                     }
                 }
@@ -89,8 +79,8 @@ fn parse_compose_file_impl(path: &Path, out: &mut Vec<ComposeEntry>) {
     }
 }
 
-/// Parse keys: returns (resolved chars, keysym name list, optional multi_key index)
-fn parse_keys_pair(pair: Pair<Rule>) -> Option<(Vec<char>, Vec<String>, Option<usize>)> {
+/// Resolve keys: returns (chars, keysym names, optional multi_key index)
+fn resolve_keys(pair: Pair<Rule>) -> Option<(Vec<char>, Vec<String>, Option<usize>)> {
     let mut chars = Vec::new();
     let mut names = Vec::new();
     let mut multi_idx: Option<usize> = None;
@@ -120,17 +110,17 @@ fn parse_keys_pair(pair: Pair<Rule>) -> Option<(Vec<char>, Vec<String>, Option<u
     }
 }
 
-/// Parse RHS value and return (resolved char, backing keysym name)
-fn parse_value_pair(pair: Pair<Rule>) -> (Option<char>, String) {
-    let parts: Vec<Pair<Rule>> = pair.into_inner().collect();
-    if parts.is_empty() {
-        return (None, String::new());
-    }
+/// Resolve RHS value: return (char, backing keysym name)
+fn resolve_value(pair: Pair<Rule>) -> (Option<char>, String) {
+    let mut parts = pair.into_inner();
+    let first = match parts.next() {
+        Some(p) => p,
+        None => return (None, String::new()),
+    };
 
-    match parts[0].as_rule() {
+    match first.as_rule() {
         Rule::string => {
-            let raw = parts[0].as_str();
-            let s = strip_quotes(raw);
+            let s = strip_quotes(first.as_str());
             if !s.is_empty() && !s.starts_with('\\') {
                 if let Some(ch) = s.chars().next() {
                     if !ch.is_ascii_digit() {
@@ -138,18 +128,19 @@ fn parse_value_pair(pair: Pair<Rule>) -> (Option<char>, String) {
                     }
                 }
             }
-            // fallback to keysym after the string
-            if parts.len() > 1 && parts[1].as_rule() == Rule::keysym_name {
-                let name = parts[1].as_str();
-                return (crate::keysym_name_to_char(name), name.to_string());
+            if let Some(next) = parts.next() {
+                if next.as_rule() == Rule::keysym_name {
+                    let name = next.as_str();
+                    return (crate::keysym_name_to_char(name), name.to_string());
+                }
             }
             (None, s.to_string())
         }
         Rule::keysym_name => {
-            let name = parts[0].as_str();
+            let name = first.as_str();
             (crate::keysym_name_to_char(name), name.to_string())
         }
-        _ => (None, parts[0].as_str().to_string()),
+        _ => (None, first.as_str().to_string()),
     }
 }
 
