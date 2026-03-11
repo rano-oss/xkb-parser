@@ -1,0 +1,71 @@
+WHITESPACE = _{ " " | "\t" }
+NEWLINE = _{ "\r\n" | "\n" }
+
+//
+// Top-level: zero or more non-empty lines. Each alternative below must
+// consume at least one character so the repetition cannot loop infinitely.
+//
+file = { SOI ~ (include_line | rule_line | comment_line | blank_line)* ~ EOI }
+
+//
+// Blank line (must consume something: at least a newline or whitespace+newline).
+//
+blank_line = { WHITESPACE* ~ NEWLINE }
+
+//
+// Comment line: starts with `#` (may be trailing on a rule/include as well).
+//
+comment_line = { WHITESPACE* ~ "#" ~ (!NEWLINE ~ ANY)* ~ NEWLINE? }
+
+//
+// Include directive: `include "path"` with optional trailing inline comment.
+// At minimum this consumes the keyword `include` and the quoted string.
+//
+include_line = { WHITESPACE* ~ "include" ~ WHITESPACE+ ~ string ~ inline_comment? ~ NEWLINE? }
+
+//
+// Rule line: sequence of `<key>` tokens then `:` then a value. Optional
+// trailing inline comment is allowed. The production consumes at least one
+// character because `keys` requires one `key_token`.
+//
+rule_line = { WHITESPACE* ~ keys ~ WHITESPACE* ~ ":" ~ WHITESPACE* ~ value ~ inline_comment? ~ NEWLINE? }
+
+//
+// Keys: one or more key_token entries. This form avoids an inner repetition
+// that could match empty by requiring at least one key_token.
+//
+keys = { key_token ~ (WHITESPACE* ~ key_token)* }
+
+key_token = { "<" ~ key_ident ~ ">" }
+
+//
+// key_ident: one or more characters that are not angle brackets or whitespace.
+// This prevents empty identifiers.
+//
+key_ident = @{ (!("<" | ">" | WHITESPACE) ~ ANY)+ }
+
+//
+// Value forms:
+// - quoted string, optionally followed by a keysym name (fallback)
+// - or a bare keysym name
+//
+value = { string ~ (WHITESPACE+ ~ keysym_name)? | keysym_name }
+
+//
+// Quoted string: permissive contents, allow backslash escapes.
+// Must include both quotes so it's never empty-match.
+//
+string = { "\"" ~ (escape_sequence | (!"\"" ~ ANY))* ~ "\"" }
+escape_sequence = { "\\" ~ ANY }
+
+//
+// keysym_name: either UXXXX (hex) or a run of word-like characters.
+// Must be at least one char.
+//
+keysym_name = @{ "U" ~ ASCII_HEX_DIGIT+ | (ASCII_ALPHANUMERIC | "_" | "-" | "+" | "." )+ }
+
+//
+// Inline (trailing) comment permitted after include/rule.
+// Consumes at least the '#' so is non-empty.
+//
+inline_comment = { WHITESPACE* ~ "#" ~ (!NEWLINE ~ ANY)* }
